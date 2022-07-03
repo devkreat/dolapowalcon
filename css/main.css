@@ -1,0 +1,301 @@
+#root, body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: rgb(255, 255, 255);
+    font-family: AlwynNew, "Helvetica Neue", -apple-system, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+
+
+
+    form {
+        display: block;
+        margin-top: 0em;
+        margin-block-end: 1em;
+    } 
+  
+    body {
+        -webkit-font-smoothing: antialiased;
+        background-color: rgb(255, 255, 255);
+        font-family: AlwynNew, "Helvetica Neue", -apple-system, sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    #root {
+        display: flex;
+        justify-content: center;
+    }
+   
+    #root, body {
+        height: 100vh;
+        overflow: hidden;
+    }
+    user agent stylesheet
+    div {
+        display: block;
+    }
+  
+    .App {
+        display: flex;
+        flex-direction: column;
+        max-width: 1100px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .NavBar--is-centered {
+        justify-content: center;
+    }
+
+    .NavBar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: rgb(255, 255, 255);
+        height: 100px;
+        flex-shrink: 0;
+    }
+    .NavBar--is-centered .NavBar__logo {
+        height: 28px;
+    }
+    .NavBar__logo {
+        height: 38px;
+    }
+
+    .Qr-logo{
+        height: 200px;
+    }
+
+    <style>
+    a {
+        color: rgb(42, 232, 240);
+        text-decoration: none;
+    }
+    user agent stylesheet
+    a:-webkit-any-link {
+        color: -webkit-link;
+        cursor: pointer;
+    }
+    .NavBar--is-centered {
+        justify-content: center;
+    }
+    .NavBar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: rgb(255, 255, 255);
+        height: 100px;
+        flex-shrink: 0;
+    }
+
+    .Pages {
+        display: flex;
+        flex: 1 1 0%;
+    }
+
+    .UnlockWalletPage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1 1 0%;
+    }
+
+    .UnlockWalletPage__wrapper {
+        display: flex;
+        flex-direction: column;
+        max-width: 440px;
+        width: 100%;
+        height: 550px;
+    }
+
+    .UnlockWalletPage__title {
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 28px;
+        min-height: 28px;
+        color: rgb(255, 255, 255);
+        margin-bottom: 10px;
+    }
+
+    .UnlockWalletCard {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(212, 90, 19);
+        min-height: 435px;
+    }
+
+    .UnlockWalletCard__content {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 0%;
+        padding: 0px 17px 17px;
+    }
+
+    .UnlockWalletCard__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        margin-bottom: 17px;
+    }
+
+    .UnlockWalletViaMnemonicPhrase {
+        display: flex;
+        flex-direction: column;
+        min-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        flex: 1 1 0%;
+    }
+
+    div {
+        display: block;
+    }
+
+    select {
+        background-color: rgb(249 164 116);
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+        height: 50px;
+        resize: none;
+        padding: 12px;
+        border-radius: 4px;
+        outline: none !important;
+        border-width: initial !important;
+        border-style: none !important;
+        border-color: initial !important;
+        border-image: initial !important
+    }
+
+    .UnlockWalletViaMnemonicPhrase__mnemonic {
+        background-color: rgb(249 164 116);
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+        height: 50px;
+        resize: none;
+        padding: 12px;
+        border-radius: 4px;
+        outline: none !important;
+        border-width: initial !important;
+        border-style: none !important;
+        border-color: initial !important;
+        border-image: initial !important;
+    }
+    textarea {
+        -webkit-writing-mode: horizontal-tb !important;
+        text-rendering: auto;
+        color: -internal-light-dark(black, white);
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: start;
+        appearance: textarea;
+        background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+        -webkit-rtl-ordering: logical;
+        flex-direction: column;
+        resize: auto;
+        cursor: text;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+        column-count: initial !important;
+        box-sizing: border-box;
+        margin: 0em;
+        font: 400 13.3333px Arial;
+        border-width: 1px;
+        border-style: solid;
+        border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+        border-image: initial;
+        padding: 2px 0px 0px 2px;
+    }
+
+    .UnlockWalletViaMnemonicPhrase__title {
+        font-size: 19px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 22px;
+        color: rgb(255, 255, 255);
+        margin-bottom: 15px;
+    }
+
+    .UnlockWalletViaMnemonicPhrase__mnemonic-instructions {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        margin-top: 6px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .UnlockWalletCard__warning {
+        display: flex;
+        align-self: center;
+        align-items: center;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 16px;
+        text-align: center;
+        color: rgb(130 0 39);
+        max-width: 330px;
+        flex: 1 1 0%;
+    }
+
+    .GradientButton__title {
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+        cursor: inherit;
+        text-decoration: none;
+    }
+    .GradientButton {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        padding-left: 16px;
+        padding-right: 16px;
+        cursor: pointer;
+        border-radius: 4px;
+        text-decoration: none;
+        background: linear-gradient(90deg, rgb(24, 40, 72) 0px, rgb(36, 57, 99)) 0% 0% / 100%;
+        transition: all 0.2s ease-in-out 0s;
+    }
+    button {
+        -webkit-writing-mode: horizontal-tb !important;
+        text-rendering: auto;
+        color: -internal-light-dark(black, white);
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        text-align: center;
+        cursor: default;
+        font: 400 13.3333px Arial;
+    }    
+    
